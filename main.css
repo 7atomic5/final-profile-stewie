@@ -1,4 +1,4 @@
-+
+
 /*moblie style start here*/
 body{
   background: yellow;
@@ -18,18 +18,49 @@ h1{
   width: 90%;
 }
 
-body{
-  background: yellow;
-}
 
+
+
+
+
+
+
+/*tablet style start here*/
 @media screen and (min-width: 420px) {
   body {
     background: green;
   }
 }
 
+h1{
+  font-size: 2.5em;
+}
+
+p{
+  font-size: 1.1em;
+}
+
+
+
+
+
+
+/*desktop style start here*/
 @media screen and (min-width: 1024px) {
   body {
     background: orange;
   }
+
+  h1{
+  font-size: 4.5em;
+}
+
+p{
+  font-size: 1.1em;
+}
+
+.center {
+  max-width: 1000px
+}
+
 }
