@@ -20,11 +20,6 @@ h1{
 
 
 
-
-
-
-
-
 /*tablet style start here*/
 @media screen and (min-width: 420px) {
   body {
@@ -39,9 +34,6 @@ h1{
 p{
   font-size: 1.1em;
 }
-
-
-
 
 
 
