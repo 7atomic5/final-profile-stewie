@@ -1,19 +1,35 @@
++
+/*moblie style start here*/
 body{
-  background: red;
+  background: yellow;
+  font-family: sans-serif;
 }
 
-@media screen and (min-width: 420xp)
-
-body{
-  background: blue;
-}
-
-.center{
-   margin: 0 50%
-  width: 90%
+h1{
+  font-size: 1.75em;
 }
 
 .section{
   padding: 5% 0;
+}
+
+.center {
+  margin: 0 auto;
+  width: 90%;
+}
+
+body{
+  background: yellow;
+}
+
+@media screen and (min-width: 420px) {
+  body {
+    background: green;
   }
-  font-family: sans-serif;
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+    background: orange;
+  }
+}
