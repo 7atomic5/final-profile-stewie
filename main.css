@@ -23,7 +23,7 @@ h1{
 /*tablet style start here*/
 @media screen and (min-width: 420px) {
   body {
-    background: green;
+    background: red;
   }
 }
 
@@ -43,7 +43,7 @@ font-style: normal
 /*desktop style start here*/
 @media screen and (min-width: 1024px) {
   body {
-    background: orange;
+  background: orange;
   }
 
   h1{
