@@ -61,4 +61,11 @@ font-style: normal
   max-width: 1000px
 }
 
+element.style {
+      margin: 10px;
+      display: block;
+      color: lightskyblue;
+      font-family: unset;
+}
+
 }
